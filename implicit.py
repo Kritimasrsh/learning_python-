@@ -30,3 +30,5 @@ first_name = "Kritima"
 last_name = "Shrestha"
 full_name = first_name + " " + last_name
 print(full_name)
+
+print ("The result of 5 + 3.0 is:", 5 + 3.0) #8.0
