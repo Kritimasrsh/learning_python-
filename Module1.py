@@ -19,6 +19,8 @@ print(60 * 24)
 #For a 2-numeral passcode, each numeral is independent of the other, so there would be 10 times 10 possibilities. 
 
 print(10**2) #100
+print(10**3) #1000
+print(10**4) #10000
 
 # Fill in the blank to calculate how many sectors a given 16 GB (gigabyte) hard disk drive has.
 # The given hard drive is divided into sectors of 512 bytes each. Divide the total bytes on the drive by the number of bytes in a sector 
