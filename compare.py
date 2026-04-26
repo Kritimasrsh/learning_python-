@@ -12,4 +12,4 @@ print("Yellow" > "Cyan" and "Brown" > "Magenta")
 
 print(25 < 50 or 1 != 2)
 
-print(not 42 == "Answer")
+print(not 42 == "Answer") #if the expression is true it returns false likewise.
