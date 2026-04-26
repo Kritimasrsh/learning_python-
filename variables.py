@@ -12,17 +12,14 @@ print(x)
 print(y)
 
 #Variables do not need to be declared with any particular type, and can even change type after they have been set.
-x = 4       # x is of type int
-x = "Sudeep" # x is now of type str
+x = 4       
+x = "Sudeep" 
 print
 
 #Casting is used to specify a variable type. In Python, we can use the following functions to cast data types:
-#int() - to cast to an integer
-#float() - to cast to a floating-point number
-#str() - to cast to a string
-x = int(3)   # x will be 3
-y = float(3) # y will be 3.0
-z = str(3)   # z will be '3'
+x = int(3)   
+y = float(3) 
+z = str(3)   
 print(x)
 print(y)
 print(z)
@@ -33,7 +30,7 @@ y = "Hello, World!"
 print(type(x))
 print(type(y))
 
-#String variables can be declared either by using single or double quotes:
+
 a = "Hello"
 b = 'Hello'
 print(a)
@@ -94,11 +91,11 @@ y = "is"
 z = "awesome"
 print(x, y, z)
 
-#We can also use the + operator to output multiple variables:
+
 x = "Python"
 y = "is"        
 z = "awesome"
-print(x + y +  z) #Notice the space character after "Python " and "is ", without them the result would be "Pythonisawesome".
+print(x + y +  z) 
 
 #python global variables
 x = "awesome"
@@ -106,7 +103,7 @@ def myfunc():
   print("Python is " + x)
 myfunc()
 
-#A global variable in Python is a variable that is defined outside of any function and can be accessed anywhere in the program (inside or outside functions).
+
 x = 10   # global variable
 def show():
     print(x)
