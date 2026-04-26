@@ -1,14 +1,14 @@
-name = "Kritima"                     # Store the name "Kritima" in the variable called name
-number = len(name) * 7               # Find the length of the name and multiply it by 7 to get the lucky number
+name = "Kritima"                   
+number = len(name) * 7               
 print("Hello " + name + ". Your lucky number is " + str(number))
-# Print a greeting message with the name and the lucky number(number is converted to string)
-name = "levi"                        # Change the value of the variable name to "levi"
-number = len(name) * 7               # Calculate the lucky number again using the new name
-print("Hello " + name + ". Your lucky number is " + str(number))  
-# Print the greeting message again with the new name and lucky number
 
-def lucky_number(name):             # Define a function named lucky_number that takes one parameter called 'name'
-    number = len(name) * 9          # Calculate the lucky number by finding the length of the name and multiplying it by 9
-    print("Hello " + name + ". Your lucky number is " + str(number))  # Print a greeting message with the person's name and lucky number
-lucky_number("Kay")                 # Call the function and pass the name "Kay"
-lucky_number("Cameron")             # Call the function again with the name "Cameron"
+name = "levi"                        
+number = len(name) * 7               
+print("Hello " + name + ". Your lucky number is " + str(number))  
+
+
+def lucky_number(name):             
+    number = len(name) * 9         
+    print("Hello " + name + ". Your lucky number is " + str(number))  
+lucky_number("Kay")                
+lucky_number("Cameron")             
