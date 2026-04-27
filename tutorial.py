@@ -50,3 +50,8 @@ more than just one line
 """ This is also a comment
 written in more than just one line
 """
+
+
+name = "Marjery"
+home_address = "1234 Mockingbird Lane"
+print(name + " lives at her home address of " + home_address)
