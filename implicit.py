@@ -1,25 +1,20 @@
-# This code demonstrates implicit type conversion in Python.
+
 # It converts one data type to another without the programmer having to specify it explicitly.
 
-#Integer and float addition
 print(7+2.5)
 
-#Integer and string concatenation
 print("a" + "b" + "c")
 
-#Two strings concatenation
 print("This is a string." + " And this is another string.")
 
 #Individual strings concatenation
 print("This" + "is" + "a" + "sentence.")
 
-#Integer and complex number addition
 a = 5
 b = 3 + 2j
 result = a + b
 print(result)
 
-#Boolean and integer addition
 x = True
 y = 10
 result = x + y
