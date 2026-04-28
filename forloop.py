@@ -44,3 +44,6 @@ for n in range(0,11,2):
 
 for x in range(2, -2, -1):
     print(x)
+
+for x in range(5, -1, -1):
+    print(x)
