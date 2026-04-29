@@ -51,3 +51,11 @@ multiplication_table(3)
 multiplication_table(5) 
 multiplication_table(8)
 
+
+number = 2  
+while number <= 12: 
+    print(number, end=" ")
+    number += 2  # Increment the variable by 2
+
+  
+
