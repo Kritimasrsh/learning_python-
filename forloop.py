@@ -41,7 +41,7 @@ for n in range(0,11,2):
 for x in range(2, -2, -1):
     print(x)
 
-for x in range(5, -1, -1): #start at 5, stop before -1, step -1
+for x in range(5, -1, -1): #start at 5, stop before -1, decreases by 1 each step 
     print(x)
 
 for number in range(1, 6+1, 2):
